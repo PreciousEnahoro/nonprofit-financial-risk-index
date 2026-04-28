@@ -35,11 +35,11 @@ The dashboard provides:
 ---
 ## Dashboard Preview
 
-![Cover](dashboard/cover_heatmap.png)
+![Cover](dashboard_outputs/cover.png)
 
-![Size Insight](dashboard/size_chart.png)
+![Size Insight](dashboard_outputs/size.png)
 
-![Explorer](dashboard_output/Nonprofit - Explorer.png)
+![Explorer](dashboard_outputs/explorer.png)
 
 ---
 ## Key Findings

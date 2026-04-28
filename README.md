@@ -33,7 +33,15 @@ The dashboard provides:
 *Risk scores represent early warning indicators, not definitive outcomes. They should be used alongside qualitative and contextual information when making decisions.*
 
 ---
+## Dashboard Preview
 
+![Cover](dashboard/cover_heatmap.png)
+
+![Size Insight](dashboard/size_chart.png)
+
+![Explorer](dashboard_output/Nonprofit - Explorer.png)
+
+---
 ## Key Findings
 
 -  Smaller nonprofits (<$100K revenue) exhibit significantly higher risk levels  

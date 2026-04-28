@@ -130,13 +130,60 @@ This tool is intended to support:
   → Study financial health and structural challenges in nonprofits  
 
 ---
+## Limitations
 
+- Data is based on historical IRS Form 990 filings and may not reflect current financial conditions  
+- Sector classification coverage is incomplete for some organizations  
+- Risk scores are predictive indicators and should not be interpreted as definitive outcomes  
+
+*Future iterations can incorporate more recent data and expanded feature sets to improve accuracy and coverage.*
+
+---
 ## Future Improvements
 
 1. Incorporate more recent financial data  
 2. Expand sector classification coverage  
-3. Enhance organization-level tooling and interactivity  
+3. Enhance organization-level tooling and interactivity
+    
+---
+## Repository Structure
 
+```text
+nonprofit-financial-risk-index/
+│
+├── data/
+│   └── nfsri_latest_org_risk_profiles_v1 - Sample.csv        # Sample organization-level dataset
+│
+├── dashboard_outputs/
+│   ├── cover.png              # Main dashboard preview
+│   ├── size.png                 # Size vs risk visualization
+│   └── explorer.png                   # Organization-level explorer view
+│
+├── sql/
+│   ├── data_preprocessing_for_modelling.sql    # Data processing and joins
+│   └── getting_nonprofit_sectors.sql       # Getting non-profit sectors
+│
+├── notebooks/
+│   └── NFSRI_Model.ipynb     # Modeling and feature engineering
+│
+├── data_dictionary.md             # Variable definitions
+│
+└── README.md
+```
+
+```markdown id="getting_started"
+## Getting Started
+
+To explore the project:
+
+1. View the interactive Tableau dashboard (link above)  
+2. Review the sample dataset in `/data`  
+3. Explore modeling and feature engineering in `/notebooks`  
+4. Refer to `/data_dictionary.md` for variable definitions  
+
+This repository is designed to provide both high-level insights and reproducible analysis components.
+
+```
 ---
 
 ## Author Contribution
@@ -149,6 +196,11 @@ Designed and developed the full analytical pipeline, including:
 - Interpretation layer and driver flags  
 - Tableau dashboard and organization-level explorer  
 
+## Technologies Used
+
+- Python (Pandas, NumPy, Scikit-learn)  
+- SQL (data cleaning and feature engineering)  
+- Tableau (data visualization and dashboarding)  
 ---
 
 ## Contact and Collaboration

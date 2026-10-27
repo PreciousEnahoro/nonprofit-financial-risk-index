@@ -12,7 +12,7 @@ The **Nonprofit Financial Sustainability Risk Index (NFSRI)** was developed to:
 
 - Identify organizations at elevated financial risk  
 - Surface early warning signals of financial distress  
-- Provide interpretable insights into underlying financial drivers  
+- Provide interpretable financial warning indicators to support further investigation
 
 **The goal is to move beyond descriptive reporting and create a practical decision-support tool for funders, policymakers, and researchers.**
 
@@ -26,7 +26,7 @@ The dashboard provides:
 
 - Sector- and size-level risk patterns  
 - Risk distribution and trends over time  
-- Key financial drivers of risk  
+- Financial warning indicators and risk patterns
 - Organization-level exploration of risk profiles  
 
 **Important Note:**  

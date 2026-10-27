@@ -1,4 +1,4 @@
-# Nonprofit Financial Risk Index (NFSRI)
+# Nonprofit Financial Sustainability Risk Index (NFSRI)
 
 A data-driven framework for identifying financially vulnerable nonprofits using IRS Form 990 data. This project demonstrates how publicly available financial data can be transformed into a **scalable early warning system for nonprofit financial health**, combining predictive modeling with interpretable risk signals to support decision-making across the sector.
 
@@ -8,7 +8,7 @@ A data-driven framework for identifying financially vulnerable nonprofits using 
 
 Nonprofit organizations play a critical role in delivering essential services across the United States, yet many operate with limited financial buffers and are vulnerable to economic shocks.
 
-The **Nonprofit Financial Risk Index (NFSRI)** was developed to:
+The **Nonprofit Financial Sustainability Risk Index (NFSRI)** was developed to:
 
 - Identify organizations at elevated financial risk  
 - Surface early warning signals of financial distress  
